@@ -48,8 +48,11 @@ const Index = () => {
                 Объединяем самых благородных и блистательных капибар во имя общего процветания
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
+
                 <Button className="bg-gold-500 hover:bg-gold-600 text-capybara-900 font-medium">
-                  Вступить в гильдию <Icon name="ArrowRight" className="ml-2" size={18} />
+                  <Link to="/join" className="flex items-center">Вступить в гильдию <Icon name="ArrowRight" className="ml-2" size={18} /></Link>
+                </Button>
+
                 </Button>
                 <Button variant="outline" className="border-gold-400 text-capybara-800 hover:bg-gold-100">
                   Узнать больше <Icon name="Info" className="ml-2" size={18} />

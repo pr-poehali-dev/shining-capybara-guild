@@ -20,8 +20,11 @@ const Header = () => {
           <Link to="/" className="text-capybara-900 font-medium hover:text-gold-700 transition-colors">
             Главная
           </Link>
-          <Link to="/about" className="text-capybara-900 font-medium hover:text-gold-700 transition-colors">
-            О гильдии
+
+          <Link to="/join" className="text-capybara-900 font-medium hover:text-gold-700 transition-colors">
+            Присоединиться
+          </Link>
+
           </Link>
           <Link to="/members" className="text-capybara-900 font-medium hover:text-gold-700 transition-colors">
             Капибары
